@@ -1,0 +1,19 @@
+{
+  "name": "math-ex-1",
+  "version": "1.0.0",
+  "description": "testing a math service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './**/*.spec.js'",
+    "start": "node index"
+  },
+  "author": "Nick Sandonato <nick.sandonato@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.4.1",
+    "sinon-chai": "^2.12.0"
+  }
+}
